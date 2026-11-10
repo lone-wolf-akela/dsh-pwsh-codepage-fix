@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PowerShell encoding fix",
+    "description": "Keeps pwsh parser errors and command output UTF-8, including under the read-only sandbox, and pins the console input encoding."
+  }
+}

@@ -1,0 +1,15 @@
+# @lone-wolf-akela/dsh-pwsh-codepage-fix — the bundle layer.
+#
+# The shipped `pwsh-sandbox` row owns `ctx.shell` on Windows. A loader patch
+# cannot re-point an existing row (a non-insert `name` is a guard, not a
+# reassignment), so the stock executor is disabled and ours is inserted under
+# its own id. Ours extends `@deepseek-ai/dsh-pwsh-sandbox`, so sandboxing,
+# deadlines, background jobs and the tool layer's sandbox facts are unchanged;
+# only the argv shape and the child environment differ.
+- id: pwsh-sandbox
+  name: "@deepseek-ai/dsh-pwsh-sandbox"
+  disabled: true
+
+- insert:
+    - id: pwsh-codepage-fix
+      name: "@lone-wolf-akela/dsh-pwsh-codepage-fix"

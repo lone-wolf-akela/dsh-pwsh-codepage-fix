@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PowerShell 编码修复",
+    "description": "让 pwsh 的语法错误与命令输出始终以 UTF-8 返回（只读沙箱下同样生效），并固定控制台输入编码。"
+  }
+}

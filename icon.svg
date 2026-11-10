@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PowerShell encoding fix">
+  <defs>
+    <linearGradient id="pwshEncodingBg" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b2f5c"/>
+      <stop offset="1" stop-color="#2478bf"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#pwshEncodingBg)"/>
+  <rect x="10" y="13" width="36" height="30" rx="6" fill="#071a30" opacity="0.6"/>
+  <path d="M17 21 L25 28 L17 35" fill="none" stroke="#eaf4ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M29 35 H37" stroke="#eaf4ff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M49 19 V35" stroke="#7fd3ff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M44.5 23.5 L49 19 L53.5 23.5" fill="none" stroke="#7fd3ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44.5 30.5 L49 35 L53.5 30.5" fill="none" stroke="#7fd3ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="47" cy="47" r="9" fill="#16a34a"/>
+  <path d="M43 47.5 L46 50.5 L51 44.5" fill="none" stroke="#f0fff4" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
